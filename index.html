@@ -1,45 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My CV</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="assets/img/favicon.ico">
-</head>
-<body>
-        <header class="header">
-            <div class="conteiner">
-                <!-- <div>
-                    <h1>Pavel Greitsev</h1>
-                    <img src="assets/img/photo.jpg" alt="my photo" width="300">
-                </div> -->
-                <nav class="nav">
-                    <ul class="nav-list">
-                        <li class="nav-item"><a href="#contacts" class="nav-link">Contacs</a></li>
-                        <li class="nav-item"><a href="#aboutme" class="nav-link">About me</a></li>
-                        <li class="nav-item"><a href="#scills" class="nav-link">Skills</a></li>
-                        <li class="nav-item"><a href="#codeexample" class="nav-link">Code Example</a></li>
-                        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
-                        <li class="nav-item"><a href="#experience" class="nav-link">Experiens</a></li>
-                        <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <main class="main">
-            <div class="conteiner">
-
-            </div>
-        </main>
-        <footer class="footer">
-            <div class="conteiner">
-
-            </div>
-        </footer>
-
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My cv</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/img/favicon.ico" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="conteiner">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacs</a>
+            </li>
+            <li class="nav-item">
+              <a href="#aboutme" class="nav-link">About me</a>
+            </li>
+            <li class="nav-item">
+              <a href="#scills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#codeexample" class="nav-link">Code Example</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#experience" class="nav-link">Experiens</a>
+            </li>
+            <li class="nav-item">
+              <a href="#languages" class="nav-link">Languages</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="conteiner">
+        <div class="profile">
+          <div class="name">
+            <h1><span>Pavel Greitsev</span></h1>
+            <p><span>Front-End Developer</span></p>
+          </div>
+          <div>
+            <img class="avatar" src="assets/img/photo.jpg" alt="my photo" />
+          </div>
+        </div>
+        <hr />
+        <div class="main-conteiner">
+          <section class="section" id="contacts">
+            <h2>Contacs</h2>
+            <ul>
+              <li><b>Phone:</b> +7 910 8121323</li>
+              <li><b>Email:</b> rothaarig87@gmail.com</li>
+              <li><b>GitHub:</b> pashqa87</li>
+              <li><b>Telegram:</b> Pasha Grey</li>
+              <li><b>Discord:</b> Pavel Greitsev</li>
+            </ul>
+          </section>
+          <section class="section" id="aboutme">
+            <h2>About me</h2>
+            <p>
+              <i>I work as a sales manager for an online store. Never had any
+              development experience before. I was interested in this area, and
+              I decided to study it. I love to set goals and achieve them. And I
+              know that I will succeed.</i>
+            </p>
+          </section>
+          <section class="section" id="scills">
+            <h2>Skills</h2>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Git</li>
+              <li>JavaScript</li>
+            </ul>
+          </section>
+          <section class="section" id="codeexample">
+            <h2>Code Example</h2>
+            <pre>
+              <code>
+      function multiply(a, b){
+      return a * b
+      }
+              </code>
+            </pre>
+          </section>
+          <section class="section" id="education">
+            <h2>Education</h2>
+            <p>Rolling-Scopes-school</p>
+          </section>
+          <section class="section" id="experience">
+            <h2>Experience</h2>
+            <a href="https://github.com/pashqa87/rsschool-cv/tree/rsschool-cv-html" target="_blank">This cv</a>
+          </section>
+          <section class="section" id="languages">
+            <h2>Languages</h2>
+            <ul>
+              <li>Russian</li>
+              <li>English A1</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <hr />
+      <div class="conteiner">
+        <nav class="footer_nav">
+          <ul class="footer_list">
+            <li class="github">
+              <a href="https://github.com/pashqa87" target="_blank">
+                <img
+                  class="footer-logo-git"
+                  src="assets/img/git.jpg"
+                  alt="github logo"
+                />
+              </a>
+            </li>
+            <li class="rss">
+              <a href="https://rs.school/js/" target="_blank">
+                <img
+                  class="footer-logo-rss"
+                  src="assets/img/logo-rsschool3.png"
+                  alt="logo rss"
+                />
+              </a>
+            </li>
+            <li class="year"><p>2022</p></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
 </html>
-
